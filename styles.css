@@ -1,0 +1,233 @@
+/* Add your CSS to this file */
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, "Norto Sans", sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    background-color: white;
+    font-size: 18px;
+}
+
+h1{
+    float: left;
+    padding-top: 5px;
+    margin-bottom: 0.1px;
+    font-size: 18px;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+ul a{
+    text-decoration: none;
+    color: #6b7280;
+}
+
+ul a:hover{
+    color: #5A67D8;
+}
+
+li{
+    float: left;
+    font-size: 18px;
+    margin-top: 0.05px;
+    margin-bottom: 0.1px;
+    margin-right: 40px;
+}
+
+.overview-hero{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #E2E8F0;
+}
+
+.overview-hero-image img{
+    float: left;
+    margin: 5px;
+    width: 230px;
+    padding-right: 40px;
+}
+
+.overview-hero-text{
+    text-align: justify;
+    margin-right: 120px;
+}
+
+.overview-hero p{
+    margin-right: 1px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 20px;
+    margin-right: 56px;
+    margin-bottom: 60px;
+}
+
+.card{
+    margin-right: 20px;
+    border: 1.8px solid #E2E8F0;
+    border-radius: 5px;
+    box-shadow: .9px .9px .9px .9px grey;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.card img{
+    width: 80%;
+    padding-top: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 10px;
+}
+
+.card-body h3{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.card-body p{
+    margin-right: 0.05px;
+}
+
+.learn-about h2{
+    margin-top: 15px;
+    white-space: nowrap;
+    font-size: 24px;
+    color: #48BB78;
+}
+
+.cards h3{
+    color: #48BB78;
+    font-size: 21px;
+}
+
+section.testing div.container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.testing{
+    background-color: #4A5568;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.testing-desciption{
+    margin-right: 50px;
+}
+
+.cta{
+    margin-top: 80px;
+    margin-right: 160px;
+    white-space: nowrap;
+}
+
+.cta a{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    background-color: #48BB78;
+    border-radius: 5px;
+}
+
+.stories{
+    padding-top: 100px;
+}
+
+.stories img{
+    float: left;
+    border-radius: 50%;
+    width: 200px;
+    height: 205px;
+    padding-right: 30px;
+}
+
+.stories h2, .stories a{
+    color: #5A67D8;
+    text-decoration: none;
+}
+
+.stories h3{
+    font-size: 18px;
+    margin-right: 100px;
+}
+
+.stories article{
+    margin-bottom: 100px;
+}
+
+.article-body{
+    text-align: justify;
+    margin-right: 75px;
+}
+
+.newsletter{
+    text-align: center; 
+    background-color: #48BB78;   
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 60px;
+}
+
+.newsletter p{
+    margin-left: 240px;
+    margin-right: 240px;
+    text-align: justify;
+}
+
+.newsletter form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 187px;
+}
+
+.newsletter button{
+    float: right;
+    width: 20%;
+    padding-left: 10px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 7px;
+    background-color: #5A67D8;
+}
+
+.newsletter input{
+    float: right;
+    width: 40%;
+    margin-right: 5px;
+    padding-right: 160px;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 7px;
+}
+
+footer{
+    background-color: #4A5568;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.message{
+    font-style: italic;
+    padding-top: 20px;
+}
